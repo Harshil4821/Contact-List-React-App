@@ -1,0 +1,54 @@
+#header{
+    width: 100%;
+    display: flex;
+    background: transparent;
+    height: 10%;
+    margin-top: 10px;
+}
+#header .select{
+    margin: 0 20px;
+    color: #fff;
+    font-size: 20px;
+}
+#header li{
+    font-size: 20px;
+    color: #fff;
+}
+#header svg{
+    color: #fff;
+    font-size: 20px; 
+}
+#header .search_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+#header .search_bar svg{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+#header .search_bar input{
+    font-size: 20px;
+    padding-left: 5px;
+    color: #fff;
+}
+.MuiInput-underline:before {
+    border-bottom: none;
+    display: none;
+}
+@media screen and (max-width: 400px){
+    #header .search_bar input{
+        width: 90%;
+    }
+    #header .search_bar{
+        width: 50%;
+        margin-left: auto;
+    }
+}

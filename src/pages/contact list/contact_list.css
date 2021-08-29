@@ -1,0 +1,26 @@
+#contact_list{
+    width: 30%;
+    height: calc(100vh - 40px);
+    background: #718093;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 576px){
+    #contact_list{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 576px){
+    #contact_list{
+        width: 380px;
+    }
+}
+@media screen and (max-width: 400px){
+    #contact_list{
+        width: 90%;
+    }
+}
